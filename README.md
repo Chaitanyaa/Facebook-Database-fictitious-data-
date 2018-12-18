@@ -37,7 +37,7 @@ The ER diagram has the following entities with their own attributes:
 <b>Our first goal was to create tables and entities to accommodate the data. 
 After obtaining the sql data, we used CREATE function to create tables. 
 One such was to create a table called ‘Sales_table’ which shows all the items ordered by price and quantity from the ‘Marketplace’ table. 
-<b>The following query was used to create the table:</b>
+The following query was used to create the table:</b>
   
   
 CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM marketplace);
@@ -45,7 +45,7 @@ CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM mark
 
 
 <b> After creating the Sales Table, 
- we went ahead and calculated which items were being sold the most, with the following statement:
+we went ahead and calculated which items were being sold the most, with the following statement:
 </b>
 
 
