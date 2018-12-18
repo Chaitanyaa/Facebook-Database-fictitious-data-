@@ -1,12 +1,26 @@
 This project is intended to develop a sample database to store and retrieve data for Facebook. 
 
 Goal of the Project
+
+
 (1)	Create tables and entities to accommodate the company’s data.
+
+
 (2)	Perform routine activities such as adding a new friend, displaying friend list and so on.
+
+
 (3)	Predict user preferences and provide recommended links. This will enable us to personalize the Newsfeed for the user based on his/her likes/interests. 
+
+
 (4)	Delete any reported user or shadow profile from the system.
+
+
 (5)	View and count the number of invitees and participants to an event.
+
+
 (6)	Sort games to show free and least expensive games. Sort products and filter contents in Fb marketplace
+
+
 (7)	Enable user to view the advertisement package details and data analytics tools.
 
 # Database for Facebook
