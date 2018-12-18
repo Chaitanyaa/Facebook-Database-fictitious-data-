@@ -33,7 +33,7 @@ The ER diagram has the following entities with their own attributes:
 
 
 
-## Facebook Database
+## Facebook Database Queries
 <b>•Our first goal was to create tables and entities to accommodate the data. 
 After obtaining the sql data, we used CREATE function to create tables. 
 One such was to create a table called ‘Sales_table’ which shows all the items ordered by price and quantity from the ‘Marketplace’ table. 
