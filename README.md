@@ -1,5 +1,5 @@
-# BUS243
-Facebook Database mini project
+# Database for Facebook
+Facebook Database dataset mini project
 https://docs.google.com/spreadsheets/d/12ByTlDCkfIcLcwjDnqBEX111kOFukkwqFPVU5dE9KHQ/edit?usp=sharing
 
 
@@ -37,8 +37,9 @@ The ER diagram has the following entities with their own attributes:
 <b>Our first goal was to create tables and entities to accommodate the data. 
 <b>After obtaining the sql data, we used CREATE function to create tables. 
 <b>One such was to create a table called ‘Sales_table’ which shows all the items ordered by price and quantity from the ‘Marketplace’ table. 
-<b>The following query was used to create the table:<br\>
-</b>CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM marketplace);
+<b>The following query was used to create the table:
+</b>
+<br\>CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM marketplace);
 
 
 
@@ -128,9 +129,8 @@ DELETE FROM user_basic WHERE user_id = 100528;
 
 
 <b> Next, as a part of our objective, we did recommendations of least expensive games from the Games data.
-</b><br\>SELECT name AS 'Are you ready? - Exciting games!', category 'Category', paid as 'Do I pay?', price AS 'Recommended - Low to High Price!' FROM games ORDER BY price ASC;
-
-
+</b>
+<br\>SELECT name AS 'Are you ready? - Exciting games!', category 'Category', paid as 'Do I pay?', price AS 'Recommended - Low to High Price!' FROM games ORDER BY price ASC;
 
 
 <b> As per our objectives of the project, we planned to create views, and we created views for Ad plans.
