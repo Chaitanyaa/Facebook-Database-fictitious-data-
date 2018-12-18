@@ -39,7 +39,9 @@ The ER diagram has the following entities with their own attributes:
 <b>One such was to create a table called ‘Sales_table’ which shows all the items ordered by price and quantity from the ‘Marketplace’ table. 
 <b>The following query was used to create the table:
 </b>
-<br\>CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM marketplace);
+  
+  
+CREATE TABLE Sales_Table AS (SELECT Item_id, Category, Price, Quantity FROM marketplace);
 
 
 
