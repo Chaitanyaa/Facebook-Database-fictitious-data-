@@ -27,7 +27,7 @@ Goal of the Project
 Facebook Database dataset mini project
 https://docs.google.com/spreadsheets/d/12ByTlDCkfIcLcwjDnqBEX111kOFukkwqFPVU5dE9KHQ/edit?usp=sharing
 
-
+![alt text](https://github.com/Chaitanyaa/Facebook-Database-fictitious-data-/blob/master/Final%20ER.JPG)
 The ER diagram has the following entities with their own attributes:
 
 <b>User_basic:</b> Has various basic attributes of the user namely User_id (Primary Key), First_name, Last_name, Password, Email, Mobile number, Birth_date and Gender.
