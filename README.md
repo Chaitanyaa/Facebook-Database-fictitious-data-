@@ -1,6 +1,6 @@
 This project is intended to develop a sample database to store and retrieve data for Facebook. 
 
-Goal of the Project
+Goal of this Project
 
 
 (1)	Create tables and entities to accommodate the company’s data.
